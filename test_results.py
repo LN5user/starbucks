@@ -11,10 +11,10 @@ def score(df, promo_pred_col = 'Promotion'):
     return (irr, nir)
     
 
-def test_results(promotion_strategy):
+def test_results(promotion_strategy, model):
     test_data = pd.read_csv('Test.csv')
     df = test_data[['V1', 'V2', 'V3', 'V4', 'V5', 'V6', 'V7']]
-    promos = promotion_strategy(df)
+    promos = promotion_strategy(df,model)
     score_df = test_data.iloc[np.where(promos == 'Yes')]    
     irr, nir = score(score_df)
     print("Nice job!  See how well your strategy worked on our test data below!")
