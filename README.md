@@ -43,6 +43,7 @@ starbucks/
 
 The main findings of the code can be found at the post
 1. "Why should your company do an AB testing? Starbucks A/B Testing Step by Step Part I" available [here](https://eneuburg.medium.com/why-should-your-company-do-an-ab-testing-88d42ec8337c).
+2. "Random Forest: a Machine Learning Model in Marketing Strategy & Decision Making, Better than A/B testing ? Starbucks optimizing the results with Random Forest after A/B Testing Part II" available [here](https://eneuburg.medium.com/random-forest-a-machine-learning-model-in-marketing-strategy-decision-making-better-than-a-b-4ccfc0fb36d1)
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
  
